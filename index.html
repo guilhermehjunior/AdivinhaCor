@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Projeto Adivinhe a Cor</title>
+</head>
+<body>
+  <main id="content-container">
+    <h1 id="title">Adivinhe a cor!</h1>
+    <p>Qual das cores abaixo representa o código RGB a seguir?</p>
+    <p id="rgb-color"></p>
+    <p>Placar:</p>
+    <p id="score"></p>
+    <div id="color-container">
+      <div>
+        <div class="ball"></div>
+        <div class="ball"></div>
+        <div class="ball"></div>
+        <div class="ball"></div>
+        <div class="ball"></div>
+        <div class="ball"></div>
+      </div>
+    </div>
+    <p id="answer">Escolha uma cor</p>
+    <div id="botoes1">
+      <button id="reset-game" class="button">Resetar o jogo</button>
+      <button id="reset-score" class="button">Resetar o placar</button>
+    </div>
+    <!-- <div id="botoes2">
+      <button id="dif-up" class="button">Aumentar Dificuldade</button>
+      <button id="dif-down" class="button">Diminuir Dificuldade</button>
+    </div> -->
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
